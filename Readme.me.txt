@@ -1,0 +1,1 @@
+This is a practice Repo I made for DSA. It includes problems from Striver's SDE list.
