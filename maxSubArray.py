@@ -1,5 +1,5 @@
 nums = [-1]
-
+# read Kadane's Algo for better understanding
 res = nums[0]
 maxPreviousSum = 0
 startIndex = 0
