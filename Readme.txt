@@ -1,1 +1,1 @@
-This is a practice Repo I made for DSA. It includes problems from Striver's SDE list.
+This is a practice Repo I made for DSA. It includes problems from Striver's SDE list and LeetCode top interview questions list.
