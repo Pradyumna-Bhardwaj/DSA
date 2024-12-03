@@ -1,4 +1,4 @@
-nums = [-1]
+nums = [1,2,3,10,4]
 # read Kadane's Algo for better understanding
 res = nums[0]
 maxPreviousSum = 0
