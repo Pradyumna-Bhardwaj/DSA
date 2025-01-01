@@ -1,11 +1,11 @@
 n = int(input("Enter n: "))
 finalList = []
+
 finalList.append([1])
-finalList.append([1,1])
-if (n==1):
-    print(finalList[0])
-elif(n==2):
-    print(finalList)
+
+if (n>=2):
+    finalList.append([1,1])
+
 for currRowNo in range(3,n+1):
     i=1
     row = [0]*(currRowNo)
