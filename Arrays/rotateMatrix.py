@@ -19,3 +19,4 @@ print(matrix)
 #         varStore = matrix[i][j]
 #         matrix[i][j] = matrix[j][i]
 #         matrix[j][i] = varStore
+# print(matrix)
