@@ -41,13 +41,10 @@ for i in[0,3,6]:
             a = 0
             while(a<3):
                 boxCheck[board[i+b][j+a]]+=1
-                # print(board[i+b][j+a])
                 if(boxCheck[board[i+b][j+a]]>1 and board[i+b][j+a] != "."):
                     res = False
                 a+=1
             b+=1
-        # print(boxCheck)
-
 print(res)
 
             

@@ -1,3 +1,2 @@
-arr = [1,2,2,[1,2]]
-
-print(list(arr))
+arr = [1]
+print(arr[1:])

@@ -31,5 +31,19 @@ nodeB.right = nodeF
 
 nodeF.left = nodeG
 
-# Traverse
-preOrderTraversal(root)
+from collections import deque
+def lateralT(root):
+    Q = deque([root])
+    result = []
+    while Q:
+        level = []
+        lenQ = len(Q)
+        for i in range(lenQ):
+            node = Q.popleft()
+            level.append(node.val)
+            if node.left:
+                Q.append(node.left)
+            if node.right:
+                Q.append(node.right)
+        result.append(level)
+    print(result)
